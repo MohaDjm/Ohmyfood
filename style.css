@@ -21,10 +21,20 @@ header {
   justify-content: center;
   gap: 1rem;
   background: #EAEAEA;
-  padding: 0.1rem;
+  padding: 1rem;
 }
 .city i {
   font-size: 1.5rem;
+  position: relative;
+}
+.city input {
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  background: #EAEAEA;
+  margin: -40px;
 }
 
 .explorer {
