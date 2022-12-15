@@ -1,9 +1,11 @@
-h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
+body{
+  margin: 0px;
 }
 
-body {
-  background: black;
-  color: white;
-  font-size: 24px;
-}/*# sourceMappingURL=style.css.map */
+header{
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+}
