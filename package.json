@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "description": "Troisième projet du parcours \"Développeur web\" chez OpenClassroom. L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohaDjm/Ohmyfood.git"
+  },
+  "author": "Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohaDjm/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/MohaDjm/Ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
+}
