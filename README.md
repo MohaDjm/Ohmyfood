@@ -3,7 +3,7 @@ Troisième projet du parcours "Développeur web" chez OpenClassroom. L'objectif 
 
 Vous pouvez retrouver le brief complet ici
 
-screenshot du site
+![image](https://user-images.githubusercontent.com/94898151/207743875-ad985360-7ae5-44d1-bd2d-6f14015fa138.png)
 
 Objectifs
 Développer un site proposant le menu de 4 grands restaurants parisiens.
