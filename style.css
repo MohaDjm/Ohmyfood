@@ -5,10 +5,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-main {
-  padding: 0 1rem;
-}
-
 header {
   font-family: "Shrikhand", cursive;
   font-style: italic;
@@ -69,14 +65,22 @@ header {
 }
 .explorer button:hover {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   transform: scale(1.02);
+  cursor: pointer;
 }
 
+.fonction {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
 .fonction ol {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 @media (min-width: 1024px) {
   .fonction ol {
@@ -84,14 +88,42 @@ header {
   }
 }
 .fonction li {
+  position: relative;
   background-color: #F7F7F7;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   flex-grow: 1;
   border-radius: 20px;
-  width: 322.49px;
-  height: 72.38px;
   text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.fonction li::before {
+  counter-increment: compteListe 1;
+  content: counter(compteListe) " ";
+  display: inline-block;
+  background-color: #9356DC;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #F7F7F7;
+  position: absolute;
+  left: -0.75rem;
+}
+.fonction li:hover {
+  background-color: #f8edff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: 200ms;
+}
+.fonction li i.fa-solid {
+  margin-right: 1rem;
+  color: #7E7E7E;
 }
 
 /*# sourceMappingURL=style.css.map */
