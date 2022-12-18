@@ -5,6 +5,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  padding: 0 1rem;
+}
+
 header {
   font-family: "Shrikhand", cursive;
   font-style: italic;
@@ -67,6 +71,27 @@ header {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
   transform: scale(1.02);
+}
+
+.fonction ol {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (min-width: 1024px) {
+  .fonction ol {
+    flex-direction: row;
+  }
+}
+.fonction li {
+  background-color: #F7F7F7;
+  padding: 1rem 2rem;
+  flex-grow: 1;
+  border-radius: 20px;
+  width: 322.49px;
+  height: 72.38px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 /*# sourceMappingURL=style.css.map */
