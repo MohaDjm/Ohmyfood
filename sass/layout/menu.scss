@@ -44,6 +44,7 @@
             .card__image-#{$i} {
                 background-image: url(../../assets/images/restaurants/menu-#{$i}.jpg);
             }
+        }
             & .card__description {
                 position: relative;
                 h3{
@@ -84,7 +85,7 @@
                     transition: all 0.3s ease-in-out;
                     }           
                 }
-            }
+            
         }
 
 }
