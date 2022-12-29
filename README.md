@@ -1,5 +1,5 @@
 # Ohmyfood
-Troisième projet du parcours "Développeur web" chez OpenClassroom. L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass
+Troisième projet du parcours "Intégrateur web" chez OpenClassroom. L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass
 
 Vous pouvez retrouver [le brief complet ici](https://course.oc-static.com/projects/Développeur+Web/IW_P4+Animations+CSS+Ohmyfood/Brief+créatif+site+Ohmyfood.pdf)
 
