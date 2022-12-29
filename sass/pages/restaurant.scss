@@ -11,13 +11,48 @@
     }
 }
 .resto_1 {
-    background: colors.$lightgrey;
     margin-top: -4rem;
+    background-color: colors.$lightgrey;
     h2 {
         font-family: "Shrikhand", "sans-serif";
         padding: 2rem 1rem;
         @include mixins.heart-animated;
+        background-color: colors.$lightgrey;
         border-radius: 2rem 2rem 0 0;
 
     }
+}
+
+.cartes {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    padding: 2rem 1rem;
+    & .menu_item {
+        display: flex;      
+        background-color: white;
+        box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+        border-radius: 15.0431px;
+        align-items: center;
+        & .menu-item__description {
+            padding: 0rem 1rem;
+            flex-direction: column;
+        }
+        & .menu-item__price {
+            margin-left: auto;
+            font-weight: 600;
+            display: flex;
+            align-items: flex-end;
+        }
+        & .menu-item__check{
+            background-color: colors.$green;
+        }
+    & h4 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+}
 }
