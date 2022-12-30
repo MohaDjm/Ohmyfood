@@ -282,6 +282,13 @@ footer .footer__list i {
   margin-top: -4rem;
   background-color: #F8F8F8;
 }
+@media (min-width: 1500px) {
+  .resto_1 {
+    max-width: 50%;
+    margin-top: -7rem;
+    padding: 0rem 40rem;
+  }
+}
 .resto_1 h2 {
   font-family: "Shrikhand", "sans-serif";
   padding: 2rem 1rem;
@@ -365,8 +372,8 @@ footer .footer__list i {
   background-color: #99E2D0;
   overflow: hidden;
   border-radius: 0px 15px 15px 0px;
-  width: 3rem;
-  margin-right: -3rem;
+  width: 2.8rem;
+  margin-right: -2.8rem;
   transition: all 0.2s ease-in-out;
 }
 .cartes .menu_item:hover .menu-item__check {
@@ -375,6 +382,7 @@ footer .footer__list i {
   width: 4rem;
 }
 .cartes .menu_item .menu-item__check {
+  overflow: hidden;
   display: grid;
   color: white;
   font-size: 1.5rem;
