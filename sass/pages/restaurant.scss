@@ -34,20 +34,30 @@
         background-color: white;
         box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
         border-radius: 15.0431px;
-        align-items: center;
         & .menu-item__description {
             padding: 0rem 1rem;
             flex-direction: column;
         }
         & .menu-item__price {
+            position: relative;
             margin-left: auto;
             font-weight: 600;
             display: flex;
+            padding: 1rem;
             align-items: flex-end;
         }
         & .menu-item__check{
             background-color: colors.$green;
-        }
+            border-radius: 0px 15px 15px 0px;
+            width: 2.8rem;
+            margin-right: -2.8rem;
+            overflow: hidden;
+            transition: all 0.2s ease-in-out;
+            }
+            &:hover .menu-item__check{
+                margin-right: 0;
+                width: 4rem;
+            }
     & h4 {
         font-style: normal;
         font-weight: 500;
