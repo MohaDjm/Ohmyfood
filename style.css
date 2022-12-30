@@ -355,7 +355,6 @@ footer .footer__list i {
   flex-direction: column;
 }
 .cartes .menu_item .menu-item__price {
-  position: relative;
   margin-left: auto;
   font-weight: 600;
   display: flex;
@@ -364,15 +363,22 @@ footer .footer__list i {
 }
 .cartes .menu_item .menu-item__check {
   background-color: #99E2D0;
-  border-radius: 0px 15px 15px 0px;
-  width: 2.8rem;
-  margin-right: -2.8rem;
   overflow: hidden;
+  border-radius: 0px 15px 15px 0px;
+  width: 3rem;
+  margin-right: -3rem;
   transition: all 0.2s ease-in-out;
 }
 .cartes .menu_item:hover .menu-item__check {
+  overflow: hidden;
   margin-right: 0;
   width: 4rem;
+}
+.cartes .menu_item .menu-item__check {
+  display: grid;
+  color: white;
+  font-size: 1.5rem;
+  place-items: center;
 }
 .cartes .menu_item h4 {
   font-style: normal;
