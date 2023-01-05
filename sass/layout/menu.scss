@@ -42,7 +42,7 @@
         }
         @for $i from 1 through 4 {
             .card__image-#{$i} {
-                background-image: url(../../assets/images/restaurants/menu-#{$i}.jpg);
+                background-image: url(./assets/images/restaurants/menu-#{$i}.jpg);
             }
         }
             & .card__description {
