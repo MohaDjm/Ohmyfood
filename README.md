@@ -10,9 +10,29 @@ Vous pouvez retrouver [le brief complet ici](https://course.oc-static.com/projec
 - Permettre la réservation en ligne et la composition de menus.
 ## Livrables
 - Pages à intégrer selon les maquettes
-- Page d’accueil
-Pages de menu (x4)
+- Page d’accueil (x1)
+  -Affichage de la localisation des restaurants. À terme, il sera possible de choisir sa
+  localisation pour trouver des restaurants proches d’un certain lieu.
+  - Une courte présentation de l’entreprise.
+  - Une section contenant les 4 menus sous forme de cartes. Au clic sur la carte,
+  l’utilisateur est redirigé vers la page du menu. 
+- Pages de menu (x4)
+  - 4 pages contenant chacune le menu d’un restaurant. 
+- Footer
+  - Le footer est identique sur toutes les pages.
+  - Au clic sur “Contact”, un renvoi vers une adresse mail est effectué. 
+- Header
+  - Le header est présent sur toutes les pages.
+  - Sur la page d’accueil, il contient le logo du site.
+  - Sur les pages de menu, il contient en plus un bouton de retour vers la page d’accueil. 
+
 ### Animation
+
+Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils devront utiliser
+les animations ou transitions CSS, pas de JavaScript ni de librairie. Pour toutes les
+animations, afin de soigner le rendu du site, il est important que lorsque nous avons un effet
+au hover ou lors d’un clic, nous ayons l’effet inverse lorsque l’on quitte le survol.
+
 #### Boutons
 
 - Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible.
@@ -34,6 +54,12 @@ Recommandée: HTML / Sass
 
 Interdit: Javascript / Frameworks CSS / Inline CSS
 
+Tout le code doit être versionné sur GitHub avec des commits réguliers pour
+suivre l’avancement et publier le site en ligne plus facilement.
+
+Le site devra être accessible sur GitHub Pages une fois terminé.
+
+
 ## Notes
 #### Polices :
 
@@ -50,6 +76,6 @@ Interdit: Javascript / Frameworks CSS / Inline CSS
 - Approche mobile-first: oui
 - Maquette mobile : oui
 - Maquette desktop : à improviser
-- Validation W3C HTML : à passer, warning autorisés
-- Validation W3C CSS : à passer, warning autorisés
-- Compatibilité : Dernières versions de Chrome, Firefox & Safari
+- Validation W3C HTML : à passer
+- Validation W3C CSS : à passer
+- Compatibilité : Dernières versions de Chrome, Firefox.
