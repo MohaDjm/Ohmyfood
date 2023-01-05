@@ -279,26 +279,41 @@ footer .footer__list i {
   }
 }
 
-.resto_1 {
+#menu-page header::before {
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f060";
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}
+#menu-page .resto_1 {
   min-width: 312px;
   margin-top: -4rem;
   background-color: #F8F8F8;
 }
 @media (min-width: 1570px) {
-  .resto_1 {
+  #menu-page .resto_1 {
     max-width: 100vh;
     margin-top: -7rem;
     padding: 0rem 40rem;
   }
 }
-.resto_1 h2 {
+#menu-page .resto_1 h2 {
   font-family: "Shrikhand", "sans-serif";
   padding: 2rem 1rem;
   background-color: #F8F8F8;
   border-radius: 2rem 2rem 0 0;
   position: relative;
 }
-.resto_1 .like {
+#menu-page .resto_1 .like {
   position: relative;
   background-color: white;
   border-radius: 0 0 15px 15px;
@@ -306,7 +321,7 @@ footer .footer__list i {
   right: 1rem;
   top: 50%;
 }
-.resto_1 .like::before {
+#menu-page .resto_1 .like::before {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -326,7 +341,7 @@ footer .footer__list i {
   opacity: 1;
   transition: all 200ms ease-in-out;
 }
-.resto_1 .like::after {
+#menu-page .resto_1 .like::after {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -347,17 +362,17 @@ footer .footer__list i {
   transition: all 200ms ease-in-out;
   background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(255, 121, 218));
 }
-.resto_1 .like:hover::after {
+#menu-page .resto_1 .like:hover::after {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }
-.resto_1 h4 {
+#menu-page .resto_1 h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   position: relative;
 }
-.resto_1 h4::after {
+#menu-page .resto_1 h4::after {
   content: "";
   height: 0.25rem;
   width: 0.25rem;
@@ -369,20 +384,19 @@ footer .footer__list i {
   left: 0rem;
   width: 3rem;
 }
-
-.cartes {
+#menu-page .cartes {
   grid-template-columns: 1fr;
   gap: 0.5rem;
   font-family: "Roboto", sans-serif;
   display: grid;
   padding: 2rem 1rem;
 }
-.cartes .menus_category {
+#menu-page .cartes .menus_category {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.cartes .menus_category .menu_item {
+#menu-page .cartes .menus_category .menu_item {
   margin: 1rem;
   overflow: hidden;
   white-space: nowrap;
@@ -392,26 +406,26 @@ footer .footer__list i {
   box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
   border-radius: 15.0431px;
 }
-.cartes .menus_category .menu_item .menu-item__description {
+#menu-page .cartes .menus_category .menu_item .menu-item__description {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   padding: 0rem 1rem;
   flex-direction: column;
 }
-.cartes .menus_category .menu_item .menu-item__description p {
+#menu-page .cartes .menus_category .menu_item .menu-item__description p {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.cartes .menus_category .menu_item .menu-item__price {
+#menu-page .cartes .menus_category .menu_item .menu-item__price {
   margin-left: auto;
   font-weight: 600;
   display: flex;
   padding: 1rem;
   align-items: flex-end;
 }
-.cartes .menus_category .menu_item .menu-item__check {
+#menu-page .cartes .menus_category .menu_item .menu-item__check {
   background-color: #99E2D0;
   overflow: hidden;
   border-radius: 0px 15px 15px 0px;
@@ -419,25 +433,24 @@ footer .footer__list i {
   margin-right: -2.8rem;
   transition: all 0.2s ease-in-out;
 }
-.cartes .menus_category .menu_item:hover .menu-item__check {
+#menu-page .cartes .menus_category .menu_item:hover .menu-item__check {
   overflow: hidden;
   margin-right: 0;
   width: 4rem;
 }
-.cartes .menus_category .menu_item .menu-item__check {
+#menu-page .cartes .menus_category .menu_item .menu-item__check {
   overflow: hidden;
   display: grid;
   color: white;
   font-size: 1.5rem;
   place-items: center;
 }
-
-section.order {
+#menu-page section.order {
   height: 20vh;
   display: grid;
   place-items: center;
 }
-section.order button {
+#menu-page section.order button {
   color: white;
   font-weight: 300;
   font-size: 1.5rem;
@@ -450,12 +463,11 @@ section.order button {
   box-shadow: 2px 1px 8px -3px #F8F8F8;
   background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
 }
-section.order button:hover {
+#menu-page section.order button:hover {
   transform: scale(1.02);
   opacity: 0.9;
 }
-
-footer {
+#menu-page footer {
   min-width: 312px;
 }
 

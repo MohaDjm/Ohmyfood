@@ -11,6 +11,15 @@
         height: 70vh;
     }
 }
+#menu-page{
+    header::before{
+        @include mixins.font-awesome($font-weight:900);
+        content:"\f060";
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.5rem;
+    }
 
 .resto_1 {
     min-width: 312px;
@@ -127,4 +136,5 @@ section.order{
 }
 footer{
     min-width: 312px;
+}
 }
