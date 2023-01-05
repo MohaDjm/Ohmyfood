@@ -42,6 +42,14 @@ header {
   margin: -40px;
 }
 
+@keyframes quarterspin {
+  0% {
+    transform: rotate(-270deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 @keyframes appear {
   0% {
     transform: scale(0);
@@ -161,6 +169,14 @@ header {
   color: #7E7E7E;
 }
 
+@keyframes quarterspin {
+  0% {
+    transform: rotate(-270deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 @keyframes appear {
   0% {
     transform: scale(0);
@@ -302,6 +318,14 @@ footer .footer__list i {
   margin-right: 1rem;
 }
 
+@keyframes quarterspin {
+  0% {
+    transform: rotate(-270deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 @keyframes appear {
   0% {
     transform: scale(0);
@@ -526,6 +550,9 @@ footer .footer__list i {
   overflow: hidden;
   margin-right: 0;
   width: 4rem;
+}
+#menu-page .cartes .menus_category .menu_item:hover .menu-item__check i {
+  animation: quarterspin 0.5s ease-in-out;
 }
 #menu-page .cartes .menus_category .menu_item .menu-item__check {
   overflow: hidden;

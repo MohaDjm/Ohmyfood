@@ -126,6 +126,9 @@
                 overflow: hidden;
                 margin-right: 0;
                 width: 4rem;
+                i {
+                    animation: quarterspin 0.5s ease-in-out;
+                }
             }
             & .menu-item__check {
                 overflow: hidden;
