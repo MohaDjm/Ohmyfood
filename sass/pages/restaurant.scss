@@ -11,6 +11,7 @@
     object-position: center;
     @media (min-width: 1024px) {
         height: 70vh;
+        object-fit: cover;
     }
 }
 #menu-page{
@@ -30,14 +31,17 @@
     min-width: 358px;
     margin-top: -4rem;
     background-color: colors.$lightgrey;
-    @media (min-width: 1570px){
-        max-width: 100vh;
-        margin-top: -7rem;
-        padding: 0rem 40rem;
+    max-width: 100%;
+    @media (min-width: 1024px){
+        max-width: 100%;
+        width: 50%;
+        margin-top: -7rem;  
+        padding-left: 25%;
     }
     h2 {
         font-family: "Shrikhand", "sans-serif";
         padding: 2rem 1rem;
+
         // @include mixins.heart-animated;
         background-color: colors.$lightgrey;
         border-radius: 2rem 2rem 0 0;
@@ -75,6 +79,7 @@
     font-family: 'Roboto', sans-serif;
     display: grid;
     padding: 2rem 1rem;
+    background-color: colors.$lightgrey;
     .menus_category {
         overflow: hidden;
         white-space: nowrap;

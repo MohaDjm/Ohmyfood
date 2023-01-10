@@ -345,6 +345,7 @@ footer .footer__list i {
 @media (min-width: 1024px) {
   .banner img {
     height: 70vh;
+    object-fit: cover;
   }
 }
 
@@ -370,12 +371,14 @@ footer .footer__list i {
   min-width: 358px;
   margin-top: -4rem;
   background-color: #F8F8F8;
+  max-width: 100%;
 }
-@media (min-width: 1570px) {
+@media (min-width: 1024px) {
   #menu-page .resto_1 {
-    max-width: 100vh;
+    max-width: 100%;
+    width: 50%;
     margin-top: -7rem;
-    padding: 0rem 40rem;
+    padding-left: 25%;
   }
 }
 #menu-page .resto_1 h2 {
@@ -462,6 +465,7 @@ footer .footer__list i {
   font-family: "Roboto", sans-serif;
   display: grid;
   padding: 2rem 1rem;
+  background-color: #F8F8F8;
 }
 #menu-page .cartes .menus_category {
   overflow: hidden;
