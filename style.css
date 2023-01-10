@@ -530,7 +530,14 @@ footer .footer__list i {
   padding: 0rem 1rem;
   flex-direction: column;
 }
-#menu-page .cartes .menus_category .menu_item .menu-item__description h3, #menu-page .cartes .menus_category .menu_item .menu-item__description p {
+#menu-page .cartes .menus_category .menu_item .menu-item__description h3 {
+  font-weight: bold;
+  font-size: medium;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#menu-page .cartes .menus_category .menu_item .menu-item__description p {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -565,12 +572,12 @@ footer .footer__list i {
   font-size: 1.5rem;
   place-items: center;
 }
-#menu-page section.order {
+#menu-page div.order {
   height: 20vh;
   display: grid;
   place-items: center;
 }
-#menu-page section.order button {
+#menu-page div.order button {
   color: white;
   font-weight: 300;
   font-size: 1.5rem;
@@ -583,7 +590,7 @@ footer .footer__list i {
   box-shadow: 2px 1px 8px -3px #F8F8F8;
   background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
 }
-#menu-page section.order button:hover {
+#menu-page div.order button:hover {
   transform: scale(1.02);
   opacity: 0.9;
 }

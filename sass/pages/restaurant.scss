@@ -106,7 +106,14 @@
                 text-overflow: ellipsis;
                 padding: 0rem 1rem;
                 flex-direction: column;
-                h3,p {
+                h3 {
+                    font-weight: bold;
+                    font-size: medium;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                p {
                     overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
@@ -146,7 +153,7 @@
 }
 }
 }
-section.order{
+div.order{
     height: 20vh;
     display: grid;
     place-items: center;
