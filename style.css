@@ -530,7 +530,7 @@ footer .footer__list i {
   padding: 0rem 1rem;
   flex-direction: column;
 }
-#menu-page .cartes .menus_category .menu_item .menu-item__description p {
+#menu-page .cartes .menus_category .menu_item .menu-item__description h3, #menu-page .cartes .menus_category .menu_item .menu-item__description p {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
