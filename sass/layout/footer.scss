@@ -3,7 +3,10 @@
 footer {
     position: relative;
     background-color: colors.$darkgrey;
-    padding: 1.89rem; 
+    padding-bottom: 1rem;
+    @media (min-width: 1024px){
+        padding: 1.89rem; 
+    }
     .footer__list {
         @media (min-width: 1024px){
             display: flex;

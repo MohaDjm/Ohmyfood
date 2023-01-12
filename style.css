@@ -281,7 +281,12 @@ header {
 footer {
   position: relative;
   background-color: #353535;
-  padding: 1.89rem;
+  padding-bottom: 1rem;
+}
+@media (min-width: 1024px) {
+  footer {
+    padding: 1.89rem;
+  }
 }
 @media (min-width: 1024px) {
   footer .footer__list {
