@@ -29,9 +29,7 @@ Vous pouvez retrouver [le brief complet ici](https://course.oc-static.com/projec
 ### Animation
 
 Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils devront utiliser
-les animations ou transitions CSS, pas de JavaScript ni de librairie. Pour toutes les
-animations, afin de soigner le rendu du site, il est important que lorsque nous avons un effet
-au hover ou lors d’un clic, nous ayons l’effet inverse lorsque l’on quitte le survol.
+les animations ou transitions CSS, pas de JavaScript ni de librairie. 
 
 #### Boutons
 
