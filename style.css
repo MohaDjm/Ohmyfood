@@ -277,7 +277,7 @@ header {
 footer {
   position: relative;
   background-color: #353535;
-  padding: 1.5rem 0rem;
+  padding: 1.89rem;
 }
 @media (min-width: 1024px) {
   footer .footer__list {
@@ -286,6 +286,7 @@ footer {
   }
   footer .footer__list h2 {
     position: absolute;
+    right: 4rem;
   }
   footer .footer__list li {
     display: flex;

@@ -3,13 +3,14 @@
 footer {
     position: relative;
     background-color: colors.$darkgrey;
-    padding: 1.5rem 0rem; 
+    padding: 1.89rem; 
     .footer__list {
         @media (min-width: 1024px){
             display: flex;
             justify-content: flex-end;
             h2 {
-                position: absolute;            
+                position: absolute;     
+                right: 4rem;   
             }
             li {
                 display: flex;
