@@ -3,7 +3,7 @@
 footer {
     position: relative;
     background-color: colors.$darkgrey;
-    padding: 1.5rem; 
+    padding: 1.5rem 0rem; 
     .footer__list {
         @media (min-width: 1024px){
             display: flex;
@@ -27,7 +27,7 @@ footer {
     li {
         justify-content: space-between;
         list-style: none;
-        padding: 1rem;
+        padding: 0.5rem 0rem;
         margin: 0;
         text-decoration: none;
         }

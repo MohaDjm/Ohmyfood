@@ -277,7 +277,7 @@ header {
 footer {
   position: relative;
   background-color: #353535;
-  padding: 1.5rem;
+  padding: 1.5rem 0rem;
 }
 @media (min-width: 1024px) {
   footer .footer__list {
@@ -302,7 +302,7 @@ footer .footer__list a {
 footer .footer__list li {
   justify-content: space-between;
   list-style: none;
-  padding: 1rem;
+  padding: 0.5rem 0rem;
   margin: 0;
   text-decoration: none;
 }
